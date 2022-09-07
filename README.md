@@ -1,6 +1,6 @@
 ## CPHUX Test assignment
 
-I've spent the last week learning laravel+livewire+tailwind mostly from scratch as there was never a requirement or need to use the mentioned frameworks.
+I've spent the last week learning laravel+livewire+tailwind mostly from scratch as there was never a requirement or need to use the mentioned frameworks/libs.
 
 Even though the task description does not specify exactly if CSV reader should store the data to be displayed right after the upload, I decided to use laravel-excel to first import the data to the local database so it can be accessed at a later point. The current basic implementation allows to choose an appropriate spreadsheet file and read through the cells using predetermined format. The data can then be displayed in a simple table view while Additional file imports would add extra rows to the DB). A dropdown menu consisting of existing "years of experience" distinct values can be used to filter the table accordingly.
 
